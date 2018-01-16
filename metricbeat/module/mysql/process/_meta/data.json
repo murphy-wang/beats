@@ -1,0 +1,26 @@
+{
+  "@timestamp": "2016-05-23T08:05:34.853Z",
+  "beat": {
+    "hostname": "host.example.com",
+    "name": "host.example.com"
+  },
+  "metricset": {
+    "host": "mysql:3306",
+    "module": "mysql",
+    "name": "process",
+    "rtt": 115
+  },
+  "mysql": {
+    "process": {
+      "ID": "102",
+      "USER": "root",
+      "HOST": "192.168.8.1",
+      "DB": "mysql",
+      "COMMAND": "query",
+      "TIME": "0",
+      "STATE": "executing",
+      "INFO": "select id,user,host,db,command,time,state,info from information_schema.processlist"
+    }
+  },
+  "type": "metricsets"
+}

@@ -1,0 +1,36 @@
+- name: process
+  type: group
+  description: "`process` contains the metrics that were obtained by the info about mysql process.\n"
+  fields:
+    - name: ID
+      type: string
+      description: >
+      
+    - name: USER
+      type: string
+      description: >
+      
+    - name: HOST
+      type: string
+      description: >
+      
+    - name: DB
+      type: string
+      description: >
+      
+    - name: COMMAND
+      type: string
+      description: >
+      
+    - name: TIME
+      type: string
+      description: >
+      
+    - name: STATE
+      type: string
+      description: >
+      
+    - name: INFO
+      type: string
+      description: >
+      

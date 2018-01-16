@@ -1,0 +1,231 @@
+- name: slave
+  type: group
+  description: "`slave` contains the metrics that were obtained by the info about mysql slave.\n"
+  fields:
+    - name: Slave_IO_State
+      type: string
+      description: >
+      
+    - name: Master_Host
+      type: string
+      description: >
+      
+    - name: Master_User
+      type: string
+      description: >
+      
+    - name: Master_Port
+      type: string
+      description: >
+      
+    - name: Connect_Retry
+      type: string
+      description: >
+      
+    - name: Master_Log_File
+      type: string
+      description: >
+      
+    - name: Read_Master_Log_Pos
+      type: string
+      description: >
+      
+    - name: Relay_Log_File
+      type: string
+      description: >
+      
+    - name: Relay_Log_Pos
+      type: string
+      description: >
+
+    - name: Relay_Master_Log_File
+      type: string
+      description: >
+
+    - name: Slave_IO_Running
+      type: string
+      description: >
+
+    - name: Slave_SQL_Running
+      type: string
+      description: >
+
+    - name: Replicate_Do_DB
+      type: string
+      description: >
+
+    - name: Replicate_Ignore_DB
+      type: string
+      description: >
+
+    - name: Replicate_Do_Table
+      type: string
+      description: >
+
+    - name: Replicate_Ignore_Table
+      type: string
+      description: >
+
+    - name: Replicate_Wild_Do_Table
+      type: string
+      description: >
+
+    - name: Replicate_Wild_Ignore_Table
+      type: string
+      description: >
+
+    - name: Last_Errno
+      type: string
+      description: >
+
+    - name: Last_Error
+      type: string
+      description: >
+
+    - name: Skip_Counter
+      type: string
+      description: >
+
+    - name: Exec_Master_Log_Pos
+      type: string
+      description: >
+
+    - name: Relay_Log_Space
+      type: string
+      description: >
+
+    - name: Until_Condition
+      type: string
+      description: >
+
+    - name: Until_Log_File
+      type: string
+      description: >
+
+    - name: Until_Log_Pos
+      type: string
+      description: >
+
+    - name: Master_SSL_Allowed
+      type: string
+      description: >
+
+    - name: Master_SSL_CA_File
+      type: string
+      description: >
+
+    - name: Master_SSL_CA_Path
+      type: string
+      description: >
+
+    - name: Master_SSL_Cert
+      type: string
+      description: >
+
+    - name: Master_SSL_Cipher
+      type: string
+      description: >
+
+    - name: Master_SSL_Key
+      type: string
+      description: >
+
+    - name: Seconds_Behind_Master
+      type: string
+      description: >
+
+    - name: Master_SSL_Verify_Server_Cert
+      type: string
+      description: >
+
+    - name: Last_IO_Errno
+      type: string
+      description: >
+
+    - name: Last_IO_Error
+      type: string
+      description: >
+
+    - name: Last_SQL_Errno
+      type: string
+      description: >
+
+    - name: Last_SQL_Error
+      type: string
+      description: >
+
+    - name: Replicate_Ignore_Server_Ids
+      type: string
+      description: >
+
+    - name: Master_Server_Id
+      type: string
+      description: >
+
+    - name: Master_UUID
+      type: string
+      description: >
+
+    - name: Master_Info_File
+      type: string
+      description: >
+
+    - name: SQL_Delay
+      type: string
+      description: >
+
+    - name: SQL_Remaining_Delay
+      type: string
+      description: >
+
+    - name: Slave_SQL_Running_State
+      type: string
+      description: >
+
+    - name: Master_Retry_Count
+      type: string
+      description: >
+
+    - name: Master_Bind
+      type: string
+      description: >
+
+    - name: Last_IO_Error_Timestamp
+      type: string
+      description: >
+
+    - name: Last_SQL_Error_Timestamp
+      type: string
+      description: >
+
+    - name: Master_SSL_Crl
+      type: string
+      description: >
+
+    - name: Master_SSL_Crlpath
+      type: string
+      description: >
+
+    - name: Retrieved_Gtid_Set
+      type: string
+      description: >
+
+    - name: Executed_Gtid_Set
+      type: string
+      description: >
+
+    - name: Auto_Position
+      type: string
+      description: >
+
+    - name: Replicate_Rewrite_DB
+      type: string
+      description: >
+
+    - name: Channel_Name
+      type: string
+      description: >
+
+    - name: 'Master_TLS_Version- name:'
+      type: string
+      description: >
